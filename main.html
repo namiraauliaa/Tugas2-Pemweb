@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Tugas3.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,300;1,400&display=swap" rel="stylesheet" />
+    <title>FORM DATA DIRI</title>
+</head>  
+<body>
+  <h1>INFORMASI DATA DIRI</h1>
+  <form action="index.html" method="get">
+    <label for="nama">Nama</label><br>
+    <input type="text" id="nama" name="nama" value=""><br> 
+
+    <br>
+
+    <label for="tglahir">Tanggal Lahir</label><br>
+    <input type="text" id="tglahir" nama="tglahir" value=""><br>
+
+    <br>
+
+    <label for="jkelamin">Jenis Kelamin</label><br>
+    <input type="radio" id="prm" name="gender" value="Perempuan">
+    <label for="prm">Perempuan</label><br>
+    <input type="radio" id="lklk" name="gender" value="Laki-laki">
+    <label for="lklk">Laki-laki</label><br>
+
+    <br>
+
+    <label for="agama">Agama</label>
+        <select nama="Agama" id="agama">
+            <option value="Kristen Protestan">Kristen Protestan</option>
+            <option value="Katholik">Katholik</option>
+            <option value="Islam">Islam</option>
+            <option value="Hindu">Hindu</option>
+            <option value="Buddha">Buddha</option>
+            <option value="Konghucu">Konghucu</option>
+        </select><br><br>
+
+    <br>
+
+    <label for="alamat">Alamat </label>
+    <textarea id="alamat" nama="alamat" value=""></textarea><br>
+    
+
+    <br>
+
+    <label for="email">Email</label><br>
+    <input type="email" id="email" nama="email" value=""><br>
+    
+    <br>
+
+    <input type="submit" value="submit">
+
+  </form>
+</body>
+</html>

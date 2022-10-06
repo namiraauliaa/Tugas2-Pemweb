@@ -1,0 +1,12 @@
+h1 {
+  text-align: center;
+}
+
+body {
+  text-align: left;
+  font-size: large;
+  color: black;
+  font-family: "roboto", sans-serif;
+  margin: 40px;
+  background-image: linear-gradient(#abbaab, #fff);
+}
